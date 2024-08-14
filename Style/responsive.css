@@ -1,0 +1,48 @@
+@media (max-width: 576px){
+    .nav-links {
+        position: fixed;
+        top: 90px;
+        left: -100%;
+        background: #111;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+        left: 0%;
+    }
+nav ul li{
+   margin: 40px 0; 
+
+}
+.nav-links li a {
+    font-size: 22px;
+    display: block;
+    background: none;
+}
+.nav-links li a:hover {
+    color: cyan;
+    background: none;
+}
+nav .menu-btn i{
+    display: block;
+}
+.hero {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+}
+.hero-content{
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100%;
+}
+.hero-image{
+    width: 50%;
+    height: auto;
+}
+}
